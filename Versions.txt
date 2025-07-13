@@ -1,0 +1,39 @@
+Flow of Ideas for this project
+P1. Can a sphere in 3d be approximated by pathces of paraboloids?
+What if I take a parabola and move its vertex in a circular path in space — what shape do I get?
+Can i approximate a shape using it and what variables do i need to change for it to get as simialr as sphere”
+Case 1. in a 2d plane, trying to get the same area and shape using "N" parabolas as some circle
+Case 2. in a 3d plane, trying to get the approx violuem and shape using "N" parabolas of some solid sphere
+##IDEA HERE : approximating using locus of some similar shapes.
+
+P2.Approximation via Transformed Shapes
+What if I now take more any general common 3d closed shapes and try to approximate it using
+similar shpaes but not belonging to the same family of the target shape. 
+Let the general common 3d closed shape be called "target shape"
+And let the shape that will be used for approximation be called "base shape"
+-> Case 1. Either one can deform targetshape such that it no longers belongs to the same family of the base shape(assuming the starting is from same base and target shape)
+-> Case 2. Either one can take random any nearest shapes, purely ranodm guesses, and try to approximating by defining few varibales such as
+    1. The Overlapping of the "N" base shape
+    2. Only translation and scaliong is allowed, and within another subcase in Case 2, 
+    let it be Case 2.a. All three translation, scaling and defomartion to tile and duplication is also allowed
+
+P3.Optimization
+-> supposing for P2.C2.a/b, if one gets such fmaily of shpaes for the task, how would one optimze it
+to get the lowest ovrlap and "N" base shapes and maximium simialrity to the shape of target shape and volume.
+Let E = (overlapping of base shapes) * (Number of base shapes) * (distance of base shape from the target shape only for applicable tiling shapes) * (number of transformations operatinos applied)
+
+P4.Generalzation
+-> Let us assume the "target shape" be described by some general equation of some degree, 
+and also let us assume the "base shape" simialr equation is either formed by
+                                            i. Random trails
+                                            ii. Decompsing the target shapes equation to base shape
+-> after this asumptions, let us apply E here and see how close and does this all even work out.?
+
+Additional questions.
+What families of base shapes work best? (e.g. paraboloids vs ellipsoids)
+	•	Are open shapes better for both target shapes and base shapes(more flexible, less efficient)?
+	•	Are closed shapes better for both target shapes and base shapes(easier to tile, but harder to deform)?
+	•	What’s the role of controlled overlap (X′) in smooth approximations?
+
+Let me start with a few fixed base and target shapes — like paraboloids → sphere, ellipsoids → torus, spheres → cube — and study those specific approximations first.”
+“I’m essentially decomposing shapes into transformable parts — this touches on procedural modeling, computer graphics, generative design, even 3D reconstruction.”
