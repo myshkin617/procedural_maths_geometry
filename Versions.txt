@@ -1,4 +1,4 @@
-Flow of Ideas for this project
+Flow of Ideas for this project --> ITS A COMPLETE exploratory sketch
 P1. Can a sphere in 3d be approximated by pathces of paraboloids?
 What if I take a parabola and move its vertex in a circular path in space — what shape do I get?
 Can i approximate a shape using it and what variables do i need to change for it to get as simialr as sphere”
@@ -37,3 +37,4 @@ What families of base shapes work best? (e.g. paraboloids vs ellipsoids)
 
 Let me start with a few fixed base and target shapes — like paraboloids → sphere, ellipsoids → torus, spheres → cube — and study those specific approximations first.”
 “I’m essentially decomposing shapes into transformable parts — this touches on procedural modeling, computer graphics, generative design, even 3D reconstruction.”
+> although i cant see any pratical uses sinc grpahics are already advanced yet this project sounds cool
